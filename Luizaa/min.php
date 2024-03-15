@@ -9,7 +9,7 @@
             background-color: #d2defc;
             display: flex;
             justify-content: center;
-            align-items; center;
+            align-items: center;
 
         }
         p{
@@ -19,9 +19,6 @@
             text-align: center;
             font-size: 40px;
             margin-top: 40px
-        }
-        .label{
-            
         }
     </style>
 </head>
@@ -54,5 +51,11 @@
                 </fieldset>
             </form>
         </div>
+
+        <?php
+    $VAL = array($_GET["val"], $_GET["val1"], $_GET["val2"], $_GET["val3"], $_GET["val4"]);
+    $menor = min($VAL);
+    echo "<p>O menor número é:  " .$menor;
+    ?>
 </body>
 </html>
