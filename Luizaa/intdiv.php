@@ -9,7 +9,7 @@
             background-color: #d2defc;
             display: flex;
             justify-content: center;
-            align-items; center;
+            align-items: center;
 
         }
         p{
@@ -24,7 +24,7 @@
 </head>
 <body>
 <div>
-            <form action="php/intdiv.php" method="get">
+            <form action=" " method="get">
                 <fieldset>
                     <legend class="legend"><b>INTDIV</b></legend>
                     <p>A nova função intdiv() realiza a divisão de inteiros de seus operandos e a retorna.</p>
@@ -42,7 +42,7 @@
         
     <?php
 
-    $dividend = $_GET["div"];
+    $dividend = $_GET["did"];
     $divisor = $_GET["div"];
 
     echo "<p>A divisão dos números retornando um inteiro é igual à: " .intdiv($dividend, $divisor);
