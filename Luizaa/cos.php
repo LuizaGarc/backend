@@ -9,7 +9,7 @@
             background-color: #d2defc;
             display: flex;
             justify-content: center;
-            align-items; center;
+            align-items: center;
 
         }
         p{
@@ -24,7 +24,7 @@
 </head>
 <body>
 <div>
-            <form action="php/cos.php" method="get">
+            <form action=" " method="get">
                 <fieldset>
                     <legend class="legend"><b>COS</b></legend>
                     <p>O cosseno de um ângulo é a razão entre a medida do cateto adjacente e a medida da hipotenusa. Razão do cosseno.</p>
@@ -38,9 +38,9 @@
 
 
         
-        <?php
-    $cos= $_GET["val"];
-    echo"<p>O cosseno do número é:  " .(cos($val));
+    <?php
+    $cos = $_GET["val"];
+    echo"<p>O cosseno do número é:  </p>" . (cos($cos));
 
 
     ?>
