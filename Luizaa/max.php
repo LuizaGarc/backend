@@ -9,7 +9,7 @@
             background-color: #d2defc;
             display: flex;
             justify-content: center;
-            align-items; center;
+            align-items: center;
 
         }
         p{
@@ -24,7 +24,7 @@
 </head>
 <body>
 <div>
-            <form action="php/max.php" method="get">
+            <form action=" " method="get">
                 <fieldset class="fmax">
                     <legend class="lmax"><b>MAX</b></legend>
                     <p class="pmax">Max() retorna o parâmetro considerado o "maior" de acordo com as comparações padrões. Se vários valores de tipos diferentes forem considerados iguais (por exemplo, 0 e 'abc') então o primeiro fornecido à função será retornado. </p>
