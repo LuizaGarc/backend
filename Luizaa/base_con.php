@@ -9,7 +9,7 @@
             background-color: #d2defc;
             display: flex;
             justify-content: center;
-            align-items; center;
+            align-items: center;
         }
         p{
             font-family: Montserrat;
@@ -17,7 +17,7 @@
             font-weight: bold;
             text-align: center;
             font-size: 40px;
-            margin-top; 40px;
+            margin-top: 40px;
             display: flex;
             flex-direction: column;
         }
@@ -28,7 +28,7 @@
 <body>
 <div>
     
-            <form action="php/bas_con.php" method="get">
+            <form action=" " method="get">
                 <fieldset>
                     <legend class="legend"><b>BASE CONVERT</b></legend>
                     <p>Essa função converte um número entre bases arbitrárias</p>
@@ -47,10 +47,10 @@
     <?php
     
     $oct = $_GET["otd"];
-    echo "<p> O número octal em decimal é: " .base_convert($oct,8,10);
+    echo "<p> O número octal em decimal é: </p>" . base_convert($oct,8,10);
     
     $hex = $_GET["octh"];
-    echo "<p> O número octal em hexadecimal é:  " .base_convert($hex, 16,8);
+    echo "<p> O número octal em hexadecimal é:  </p>" . base_convert($hex, 16,8);
 
     ?>
     <br>
