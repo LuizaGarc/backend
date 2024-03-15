@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px; /* margem */
+    border: 10px solid black; /* borda preta */
+    background: linear-gradient(to bottom, #778491, #2c4858); /* Fundo gradient */
+}
+a{
+    color: black;
+    font-style: italic;
+    text-decoration: none; 
+}
